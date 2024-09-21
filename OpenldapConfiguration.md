@@ -1,4 +1,4 @@
-# **OpenLDAP Configuration Overview**
+# **OpenLDAP Configuration**
 
 ## **1\. Introduction to slapd.conf**
 
