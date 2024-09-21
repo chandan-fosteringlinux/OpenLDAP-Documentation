@@ -44,7 +44,7 @@ The configuration manages internal databases:
   * `access to * by dn.exact="cn=Manager,dc=kna,dc=in" write by * read`  
     
 
-This allows the admin to make configuration changes while ensuring read access for others.
+This allows the Manager to make configuration changes while ensuring read access for others.
 
 ## **6\. MDB Database Definitions**
 
@@ -56,7 +56,7 @@ This allows the admin to make configuration changes while ensuring read access f
       
 * **MDB:** This is a fast and efficient database type.  
 * **Suffix:** Defines the root of our directory tree.  
-* **Admin Credentials:** Specifies the admin user and password.
+* **Manager Credentials:** Specifies the Manager user and password.
 
  ## **7\. Indexing**
 
@@ -130,7 +130,7 @@ Each user entry includes attributes like `uid`, `cn`, `sn`, `mail`, and `userPas
 
 **Command:**
 
- `ldapadd -x -D "cn=admin,dc=kna,dc=in" -W <<EOF`  
+ `ldapadd -x -D "cn=Manager,dc=kna,dc=in" -W <<EOF`  
    `dn: ou=contractor,dc=kna,dc=in`  
    `objectClass: organizationalUnit`  
    `ou: contractor`  
@@ -160,7 +160,7 @@ This adds an OU for contractors, which can be replicated for other roles.
 
 ### **Command to Add User**
 
-   `ldapadd -x -D "cn=admin,dc=kna,dc=in" -W <<EOF`  
+   `ldapadd -x -D "cn=Manager,dc=kna,dc=in" -W <<EOF`  
    `dn: uid=shrikant.kshitij,ou=contractor,dc=kna,dc=in`  
    `objectClass: top`  
    `objectClass: person`  
@@ -206,7 +206,7 @@ Example for contractor group:
 
 **Command:**
 
- `ldapadd -x -D "cn=admin,dc=kna,dc=in" -W <<EOF`  
+ `ldapadd -x -D "cn=Manager,dc=kna,dc=in" -W <<EOF`  
    `dn: cn=contractors,ou=groups,dc=kna,dc=in`  
    `objectClass: posixGroup`  
    `cn: contractors`  
