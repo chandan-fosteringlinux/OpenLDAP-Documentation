@@ -31,6 +31,8 @@ The backup file will be saved in the specified directory with the filename forma
 
 To automate the backup process, we use **cron**, a time-based job scheduler in Unix-like systems. Below is the cron job configuration:
 
+Open the crontab configuration file by running the command `crontab -e`.
+
 `0 */2 * * * /backup/backup_script/backup_script.sh`
 
 ### **Cron Job Details:**
