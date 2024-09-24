@@ -1,4 +1,5 @@
 ## **KVM Installation on Ubuntu**
+KVM (Kernel-based Virtual Machine) is a virtualization infrastructure for the Linux kernel that allows users to run multiple virtual machines (VMs) on a single physical host.
 
 ### **1\. Update Package Index**
 
