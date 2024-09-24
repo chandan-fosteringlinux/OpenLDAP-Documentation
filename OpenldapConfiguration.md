@@ -7,6 +7,7 @@ The `slapd.conf` file is essential for configuring the OpenLDAP server (slapd da
 * **Database Management:** Defines how data is stored and accessed.  
 * **Access Control:** Sets permissions for users and groups.  
 * **Replication Settings:** Configures data synchronization between servers.
+* **Path To Configuration File:** /usr/local/openldap/etc/openldap/slapd.conf
 
 ## **2\. Schema Inclusions**
 
