@@ -13,9 +13,7 @@
 ## **2\. Requirements**
 
 * Two or more **LDAP servers** (e.g., VM1, VM2).  
-* HAProxy installed on a machine that will act as the **load balancer**.  
 * **Root/Admin access** for configuration.
-
 ---
 
 ## **3\. Steps to Set Up HAProxy**
