@@ -8,7 +8,7 @@ OpenLDAP is an open-source implementation of the Lightweight Directory Access Pr
 
 * **Purpose:** Install the Extra Packages for Enterprise Linux (EPEL) repository to access additional packages.
 
-  ---
+---
 
  ### **2\. Verify EPEL Repository**
 
