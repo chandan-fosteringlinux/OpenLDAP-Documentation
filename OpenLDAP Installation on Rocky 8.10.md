@@ -1,4 +1,5 @@
 ## **OpenLDAP Installation on Rocky 8.10**
+OpenLDAP is an open-source implementation of the Lightweight Directory Access Protocol (LDAP) used for accessing and managing directory information services over a network.
 
 ### **1\. Enable EPEL Repository**
 
