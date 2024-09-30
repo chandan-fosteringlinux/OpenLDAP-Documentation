@@ -12,6 +12,7 @@ OpenLDAP is an open-source implementation of the Lightweight Directory Access Pr
  ### **2\. Verify EPEL Repository**
  
   `dnf repolist`  
+  
 **Purpose:** Check that the EPEL repository is enabled and available for use.
 
 ---
