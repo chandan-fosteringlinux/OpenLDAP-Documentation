@@ -21,6 +21,7 @@ OpenLDAP is an open-source implementation of the Lightweight Directory Access Pr
  
   `sudo dnf update -y`  
   **Purpose:** Ensure all installed packages are up to date before proceeding. 
+  
   ---
 
  ### **4\. Configure LTB Project Repository**
